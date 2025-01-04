@@ -3,7 +3,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="flex flex-col bg-gray-800 text-white pt-5 pb-10 px-10 bg-custom font-body">
+    <section className="flex flex-col text-white pt-5 pb-10 px-10 bg-[#050505] font-body">
       <div>
         <h2 className="text-4xl font-bold text-center mb-8">
           Let's <span className="text-green-400">Talk</span>
@@ -60,7 +60,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col bg-[#252525] p-10 gap-2 justify-center rounded-xl">
+        <div className="flex flex-col bg-[#0a0a0a] p-10 gap-2 justify-center rounded-xl">
           <p className="text-2xl font-bold p-4">
             Send Me an <span className="text-green-400">Email</span>
           </p>

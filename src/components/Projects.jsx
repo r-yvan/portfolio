@@ -41,8 +41,8 @@ const Projects = () => {
   ];
 
   return (
-    <div className="pb-10 pt-10 bg-custom text-white z-30">
-      <div className="flex justify-center z-20">
+    <div className="pb-10 overflow-hidden relative pt-10 bg-[#0a0a0a] text-white z-30">
+      <div className="flex spotlight-2 justify-center z-20">
         <h2 className="text-6xl font-bold mb-20 z-20">
           My <span className="text-green-400">Projects</span>
         </h2>

@@ -32,7 +32,7 @@ const About = () => {
   }, [controls, inView]);
 
   return (
-    <div className="flex flex-col justify-center bg-[#252525] text-white pt-10">
+    <div className="flex flex-col justify-center bg-[#0a0a0a] text-white pt-10">
       <div className="flex justify-center z-10 mb-20">
         <motion.h2
           initial={{ y: 50, opacity: 0 }} 

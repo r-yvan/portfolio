@@ -32,7 +32,7 @@ const Clients = () => {
   ];
 
   return (
-    <div className="bg-[#252525] text-white pt-5 pb-10">
+    <div className="bg-[#0a0a0a] text-white pt-5 pb-10">
       <div className="flex justify-center z-20">
         <h2 className="text-4xl font-bold mb-10 z-20">
           <span className="text-green-400">Clients'</span> Testimonies

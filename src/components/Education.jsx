@@ -91,7 +91,7 @@ const Education = () => {
   ]);
 
   return (
-    <div className="flex flex-col justify-center bg-custom text-white pt-10 pb-10">
+    <div className="flex overflow-hidden flex-col justify-center bg-[#050505] text-white pt-10 pb-10">
       <motion.div
         animate={onScrollReveal}
         ref={ref}

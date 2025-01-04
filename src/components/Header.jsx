@@ -32,10 +32,7 @@ const Header = () => {
   }, [controls, inView]);
 
   return (
-    <header
-      className="text-white bg-custom bg-cover bg-center font-body pt-6 pb-10"
-      style={{ minHeight: "100vh" }}
-    >
+    <header className="relative text-white bg-[#050505] bg-cover bg-center font-body pt-6 pb-10">
       <div className="flex justify-center items-center">
         <nav className="fixed py-2 z-50 bg-white bg-opacity-10 mt-2 rounded-full w-fit backdrop-blur-3xl px-10 border border-green-400 border-opacity-30">
           <ul className="flex justify-center items-center space-x-12">
@@ -55,7 +52,7 @@ const Header = () => {
           </ul>
         </nav>
       </div>
-      <div className="" ref={ref} animate={controls}>
+      <div className="spotlight" ref={ref} animate={controls}>
         <div className="flex flex-col relative px-4 pt-10 pb-10 z-10">
           <div className="flex flex-row justify-center gap-10 mt-20">
             <div className="w-96 h-96"></div>
