@@ -58,6 +58,9 @@ const Projects = () => {
                 </h3>
                 <p className="pl-3 text-white text-opacity-50">{project.description}</p>
               </div>
+              <div>
+                
+              </div>
               <div className="absolute right-1 bottom-2 h-28 w-28">
                 <img src={upt} alt="" />
               </div>
