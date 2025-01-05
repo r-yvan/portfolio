@@ -1,37 +1,43 @@
 import React from "react";
+import { IconExternalLink } from "@tabler/icons-react";
 import temp from "../assets/temp.jpg";
 import upt from "../assets/upt.png";
 
 const Projects = () => {
   const projects = [
     {
+      img: {},
       title: "DoBuddy",
       description: "Simple mobile app to increase your productivity..",
-      img: {},
+      link: "do-buddy.vercel.app",
     },
     {
+      img: {},
       title: "NoviumTech",
       description:
         "Website that provide real time information about the outside trending tech gadgets..",
-      img: {},
+      link: "",
     },
     {
+      img: {},
       title: "PicDeck",
       description:
         "Modern web app build for artists and other art enthusiasts to visualize their work..",
-      img: {},
+      link: "pic-deck.vercel.app",
     },
     {
+      img: {},
       title: "CompraViva",
       description:
         "Modern ecommerce app that enables you to buy or sell products oline and while at home...",
-      img: {},
+      link: "compra-viva.vercel.app",
     },
     {
-      title: "Very High UI React E-Commerce..",
-      description:
-        "Website that provide real time information about the outside tech gadgets..",
       img: {},
+      title: "VistaDash",
+      description:
+        "Modern beautiful dashboard that provide real time information about the outside tech gadgets..",
+      link: "vista-dash.vercel.app",
     },
   ];
 
@@ -53,13 +59,24 @@ const Projects = () => {
                 <img src={temp} alt="" />
               </div>
               <div className="flex flex-col h-28 pr-2 pl-2 before:contents-[''] before:absolute before:w-1 before:h-28 before:bg-green-400 before:rounded-full">
-                <h3 className="pl-3 text-lg font-semibold mb-1">
+                <h3 className="pl-3 text-lg font-semibold mb-2">
                   {project.title}
                 </h3>
-                <p className="pl-3 text-white text-opacity-50">{project.description}</p>
-              </div>
-              <div>
-                
+                <p className="pl-3 text-white text-sm text-opacity-50 mb-3">
+                  {project.description}
+                </p>
+                <div className="pl-3 flex gap-1">
+                  <a
+                    href={"https://" + project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="text-white text-opacity-40 text-sm underline">
+                      {project.link}
+                    </span>
+                  </a>
+                  <IconExternalLink size={20} className="opacity-40" />
+                </div>
               </div>
               <div className="absolute right-1 bottom-2 h-28 w-28">
                 <img src={upt} alt="" />
