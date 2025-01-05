@@ -97,7 +97,7 @@ const Education = () => {
         ref={ref}
         className="flex justify-center z-10 mb-20"
       >
-        <h2 className="text-6xl font-bold">
+        <h2 className="text-5xl font-bold">
           My <span className="text-green-400">Education</span>
         </h2>
       </motion.div>

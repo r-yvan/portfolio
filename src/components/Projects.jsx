@@ -13,13 +13,6 @@ const Projects = () => {
     },
     {
       img: {},
-      title: "NoviumTech",
-      description:
-        "Website that provide real time information about the outside trending tech gadgets..",
-      link: "",
-    },
-    {
-      img: {},
       title: "PicDeck",
       description:
         "Modern web app build for artists and other art enthusiasts to visualize their work..",
@@ -36,15 +29,22 @@ const Projects = () => {
       img: {},
       title: "VistaDash",
       description:
-        "Modern beautiful dashboard that provide real time information about the outside tech gadgets..",
+        "Modern beautiful dashboard that provide real time information for proper management..",
       link: "vista-dash.vercel.app",
+    },
+    {
+      img: {},
+      title: "NoviumTech",
+      description:
+        "Website that provide real time information about the outside trending tech gadgets..",
+      link: "",
     },
   ];
 
   return (
     <div className="pb-10 w-full overflow-hidden relative pt-10 bg-[#0a0a0a] text-white z-30">
       <div className="flex spotlight-2 justify-center z-20">
-        <h2 className="text-6xl font-bold mb-20 z-20">
+        <h2 className="text-5xl font-bold mb-20 z-20">
           My <span className="text-green-400">Projects</span>
         </h2>
       </div>
@@ -52,7 +52,7 @@ const Projects = () => {
         <div className="flex flex-row flex-wrap w-[1300px] for-scrollbar gap-5 z-20">
           {projects.map((project, index) => (
             <div
-              className="flex flex-col overflow-y-auto w-card flex-shrink-0 for-scrollbar bg-[#151515] backdrop-blur-3xl border border-white border-opacity-10 duration-200 ease-out hover:scale-95 hover:shadow-custom hover:border-green-400 hover:border-opacity-100 rounded-xl pb-2 z-20"
+              className="flex flex-col overflow-y-auto w-card flex-shrink-0 for-scrollbar bg-[#151515] backdrop-blur-3xl border border-white border-opacity-10 duration-200 ease-out hover:scale-[1.015] hover:shadow-custom hover:border-green-400 hover:border-opacity-100 rounded-xl pb-2 z-20"
               key={index}
             >
               <div className="w-full rounded-t-xl overflow-hidden mb-2">
@@ -71,7 +71,7 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <span className="text-white text-opacity-40 text-sm underline">
+                    <span className="text-white text-opacity-40 text-sm underline hover:text-green-400">
                       {project.link}
                     </span>
                   </a>

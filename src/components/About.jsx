@@ -37,7 +37,7 @@ const About = () => {
         <motion.h2
           initial={{ y: 50, opacity: 0 }} 
           animate={controls} 
-          className="text-6xl font-bold"
+          className="text-5xl font-bold"
         >
           About <span className="text-green-400">Me</span>
         </motion.h2>

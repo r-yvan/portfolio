@@ -50,7 +50,7 @@ const Skills = () => {
   return (
     <div className="flex flex-col items-center backdrop-blur-3xl bg-[#0a0a0a] py-10 text-white z-20">
       <div className="flex justify-center mb-10 z-10">
-        <h2 className="text-6xl font-bold text-green-400">Skills</h2>
+        <h2 className="text-5xl font-bold text-green-400">Skills</h2>
       </div>
       <div className="flex flex-row justify-center gap-5">
         {skills.map((skill, index) => (

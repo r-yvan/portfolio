@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section className="flex flex-col text-white pt-5 pb-10 px-10 bg-[#050505] font-body">
       <div>
-        <h2 className="text-4xl font-bold text-center mb-8">
+        <h2 className="text-5xl font-bold text-center mb-8">
           Let's <span className="text-green-400">Talk</span>
         </h2>
       </div>
