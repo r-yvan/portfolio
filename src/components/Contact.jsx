@@ -66,27 +66,27 @@ const Contact = () => {
           </p>
           <form action="" className="flex flex-col gap-3">
             <input
-              className="bg-inherit rounded-xl p-3 border border-white border-opacity-30 outline-none"
+              className="bg-inherit rounded-lg p-3 border border-white border-opacity-10 outline-none"
               type="text"
               placeholder="Email"
             />
             <input
-              className="bg-inherit rounded-xl p-3 border border-white border-opacity-30 outline-none"
+              className="bg-inherit rounded-lg p-3 border border-white border-opacity-10 outline-none"
               type="text"
               placeholder="Password"
             />
             <textarea
-              className="bg-inherit rounded-xl p-3 border border-white border-opacity-30 outline-none"
+              className="bg-inherit rounded-lg p-3 border border-white border-opacity-10 outline-none"
               type="text"
               placeholder="Text"
             />
             <input
-              className="bg-inherit rounded-xl p-3 border border-white border-opacity-30 outline-none"
+              className="bg-inherit rounded-lg p-3 border border-white border-opacity-10 outline-none"
               type="text"
               placeholder="Contacts"
             />
             <div className="flex justify-center">
-              <button className="bg-green-600 py-2 rounded-full w-32">
+              <button className="bg-green-600 py-2 rounded-lg w-32">
                 Send
               </button>
             </div>
