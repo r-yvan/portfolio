@@ -5,31 +5,25 @@ import upt from "../assets/upt.png";
 const Projects = () => {
   const projects = [
     {
-      title: "React To Do App",
-      description: "Simple Project to exercise react js development..",
+      title: "DoBuddy",
+      description: "Simple mobile app to increase your productivity..",
       img: {},
     },
     {
-      title: "Youtube Clone",
+      title: "NoviumTech",
       description:
-        "Simply a Youtube Clone with functionalities like those of Youtube..",
+        "Website that provide real time information about the outside trending tech gadgets..",
       img: {},
     },
     {
-      title: "Novium Tech Informer",
+      title: "PicDeck",
+      description: "Modern Web app build for artists and other art enthusiast to visualize their work..",
+      img: {},
+    },
+    {
+      title: "CompraViva",
       description:
-        "Website that provide real time information about the outside tech gadgets..",
-      img: {},
-    },
-    {
-      title: "React Image Gallery App",
-      description: "Simple Image Gallery I did for Codealpha Internship..",
-      img: {},
-    },
-    {
-      title: "Next JS E-Commerce",
-      description:
-        "Simply a Youtube Clone with functionalities like those of Youtube..",
+        "Modern Web app those of Youtube..",
       img: {},
     },
     {
