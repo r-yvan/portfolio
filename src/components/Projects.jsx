@@ -17,13 +17,13 @@ const Projects = () => {
     },
     {
       title: "PicDeck",
-      description: "Modern Web app build for artists and other art enthusiast to visualize their work..",
+      description: "Modern web app build for artists and other art enthusiasts to visualize their work..",
       img: {},
     },
     {
       title: "CompraViva",
       description:
-        "Modern Web app those of Youtube..",
+        "Modern ecommerce app that enables you to buy or sell products oline and while at home...",
       img: {},
     },
     {
@@ -44,7 +44,7 @@ const Projects = () => {
       <div className="flex flex-row flex-wrap justify-center for-scrollbar gap-5 px-20 z-20">
         {projects.map((project, index) => (
           <div
-            className="flex flex-col overflow-y-auto w-card flex-shrink-0 for-scrollbar bg-white bg-opacity-10 backdrop-blur-3xl border border-white border-opacity-10 duration-200 ease-out hover:scale-95 hover:shadow-custom hover:border-green-400 hover:border-opacity-100 rounded-xl pb-2 z-20"
+            className="flex flex-col overflow-y-auto w-card flex-shrink-0 for-scrollbar bg-[#0a0a0a] backdrop-blur-3xl border border-white border-opacity-10 duration-200 ease-out hover:scale-95 hover:shadow-custom hover:border-green-400 hover:border-opacity-100 rounded-xl pb-2 z-20"
             key={index}
           >
             <div className="w-full rounded-t-xl overflow-hidden mb-3">
